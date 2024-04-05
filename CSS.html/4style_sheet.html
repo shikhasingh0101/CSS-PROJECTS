@@ -1,0 +1,70 @@
+<!-- Create a external style sheet named as “external_css.css” and provide
+some styles for h2, hr, p & a tags. Create an html file named as
+“4Style_sheet.html”
+• Include the external style sheet with necessary tag.
+• Include the internal style sheet for body tags & also
+use class name,so that the style can be
+applied for all tags.
+• Include a <p> tags with inline style sheet. -->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>External and Internal Stylesheet Example</title>
+    <link rel="stylesheet" type="text/css" href="external_css.css">
+    <style>
+    
+    body {
+        text-align:center;
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .text-style {
+        font-style: italic;
+    }
+    
+    </style>
+    </head>
+    <body>
+    
+    
+ 
+    <p style="color: red;">This is a paragraph with inline style.</p>
+   
+    <h2>Heading 2</h2>
+    <hr>
+    <p class="text-style">This is a paragraph with class name style applied.</p>
+    <a href="https://www.geeksforgeeks.org/bubble-sort-in-cpp/">This is a link for bubble sort</a>
+    
+    
+    <div class="container">
+        <h3>Internal Styling Example</h3>
+        <p>This paragraph demonstrates internal styling.</p>
+    </div>
+   
+    <div class="container">
+        <h3>External Styling Example</h3>
+        <p>This paragraph demonstrates external styling.</p>
+    </div>
+    
+    
+    <ul>
+        <li class="list-item">List Item 1</li>
+        <li class="list-item">List Item 2</li>
+        <li class="list-item">List Item 3</li>
+    </ul>
+    
+    
+    <ul class="external-list">
+        <li>List Item 4</li>
+        <li>List Item 5</li>
+        <li>List Item 6</li>
+    </ul>
+    
+    </body>
+    </html>
+    

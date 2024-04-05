@@ -1,0 +1,44 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.item img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.item-info {
+    flex: 1;
+}
+
+.item-info h2 {
+    margin-top: 0;
+}
+
+.item-info p {
+    margin-bottom: 10px;
+}
+
+.item-info .price {
+    font-weight: bold;
+}
+
+.item-info button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.item-info button:hover {
+    background-color: #0056b3;
+}
